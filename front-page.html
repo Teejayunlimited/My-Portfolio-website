@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My potfolio</title>
+    <link rel="stylesheet" href="front-page.css">
+    <link rel="stylesheet" href="menu-hambuger.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Olatunji<span class="logo-name"> Dev</span></div>
+        <div>
+            <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#experince">Experince</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Olatunji Dev</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#products" onclick="toggleMenu()">Products</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">contact</a></li> 
+            </div>
+        </div>
+    </nav> 
+
+    <section id="profile">
+        
+         <div class="section_pic-container">
+            <img src="asset/FB_IMG_1689282925269.jpg" alt="olatunji profile picture"/>
+        </div>
+        
+         <div class="section_text">
+            <p class="section_text_p1">Hi, I'm</p>
+            <h1 class="title">Olatunji Adebayo</h1>
+            <p class="section_text_p2">A Website Developer</p>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2"
+                onclick="window.open('')">
+                Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='mailto:olatunjiadebayo15@mail.com'">
+                Contact Info
+            </button>
+            </div>
+        
+       
+            <div id="socials-container">
+                <img src="asset/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b4ec817.2080142615351082033227.png"
+                alt="my Github profile" class="icon"
+                onclick="location.href='https://github.com/Teejayunlimited'"/>
+                <img 
+                src="asset/linkedin.png" alt="my linkedIn profile"
+                class="icon"
+                onclick="location.href=''"/>
+            </div>
+        </div>
+    
+    </section>
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img
+                src="asset/omo.jpg"
+                alt="profile-picture"
+                class="about-me"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                    <img
+                    src="asset/for-experienced.png"
+                    alt="Experince-icon"
+                    class="icon"
+                    />
+                    <h3>Experince</h3>
+                    <p>1 year <br./> Web developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                        src="asset/graduation.png"
+                        alt="Experince-icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>Degree <br./> Mass-Communication</p>              
+                    </div>
+                </div>
+                    <p class="text-container">
+I'am Olatunji Adebayo, i am a web developer with a year experience.
+I will work with you to
+Formulate a Key focus for your Compeny
+                    
+Develop a plan that keeps all social channels regularly
+                       updated with quality content
+Research and create inspired social medial posts
+that fit seamlessly wit your comperney personality
+</p>
+  
+</div>
+</div>
+</div>
+<img src="asset/" alt="arrow-icon" class="icon-arrow"
+onclick="location.href='./#about'"/>
+    </section>
+    <section id="experince">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experince</h1>
+        <div class="experince-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experince-sub-title">Responsive Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="asset/html-fill.png" alt="experince icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experinced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="asset/document-css.png" alt="experince icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experinced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="asset/js.png" alt="experince icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Javer-script</h3>
+                                <p>Experinced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section id="products">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experince-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="asset/front-page.jpg" alt="project 1"
+                    class="project-img"  id="one"/>
+                </div>
+                <h2 class="experince_sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/Teejayunlimited/My-Music-Web/commit/3d842119dcc4ffa00deb7c390c971e8c854e349f#diff-cc2eb8fb31070e5cfcac4bd5cc596a964172c0826eec300f148580c4081fbedc'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'">
+                        Live Demo
+                     </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="asset/payment.jpg" alt="project 2"
+                    class="project-img "/>
+                </div>
+                <h2 class="experince_sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+
+                    onclick="location.href='https://github.com/Teejayunlimited/My-Music-Web/commit/3d842119dcc4ffa00deb7c390c971e8c854e349f#diff-5ea04b4feb93afeca8c3389389ce065794853f282efe15787d0e0fbffcdec328'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'">
+                        Live Demo
+                     </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="asset/registration-fom.jpg" alt="project 3"
+                    class="project-img"/>
+                </div>
+                <h2 class="experince_sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/'">
+                        Live Demo
+                     </button>
+                </div>
+            </div></div>
+        
+        </div>
+        <img src="asset/" alt="arrow-icon" class="icon-arrow"
+        onclick="location.href='./#products'"/>
+        
+    </section>
+    <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container ">
+            <img
+            src="asset/message.png"
+            alt="Email icon"
+            class="icon content-icon"/>
+            <p><a href="mailto:olatunjiadebayo15@mail.com">Gmail</a></p>
+        </div>
+        <div class="contact-info-container ">
+            <img
+            src="asset/linkedin.png"
+            alt="Email icon"
+            class="icon content-icon"/>
+            <p><a href="https://www.linkedin.com">linkedIn</a></p>
+        </div>
+        <div class="contact-info-container ">
+            <img
+            src="asset/twitter_1384033.png"
+            alt="Email icon"
+            class="icon content-icon"/>
+            <p><a href="https://twitter.com/teejayunlimited">twitter</a></p>
+        </div>
+        <div class="contact-info-container ">
+            <img
+            src="asset/free-code-camp.png"
+            alt="Email icon"
+            class="icon content-icon"/>
+            <p><a href="https://www.free-code-camp.org">free-code-camp</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <nav>
+        <div class="nav-link-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">contact</a></li>  
+                <li><a href="#experince">Experince</a></li>  
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 Olatunji Adebayo. All Rights Reserved.</p>
+</footer>
+
+    <script src="front-page.js"></script>
+</body>
+</html>
