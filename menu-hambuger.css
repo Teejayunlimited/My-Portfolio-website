@@ -21,7 +21,10 @@
   .experince-details-container{
     margin-top: 2rem;
   }
-
+.bottomb{
+  margin: 0;
+}
+  
   #profile, .section-container{
     display: block;
   }
