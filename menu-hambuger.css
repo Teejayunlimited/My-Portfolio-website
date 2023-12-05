@@ -50,10 +50,11 @@
   }
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1300px){
   #contact,
   footer{
     height: 40vh;
+    margin: 5rem;
   }
   #profile{
     height: 83vh;
@@ -72,7 +73,6 @@
     flex-wrap: wrap;
   }
   .contact-info-container{
-    margin: 0;
     gap: 2rem;
     padding: 0;
   }
@@ -81,6 +81,10 @@
   .nav-links li a {
     font-size: 1rem;
     
+  }
+  .content-icon,
+  .div-p{
+    margin: 0;
   }
   .experince-sub-title{
     font-size: 1.25rem;
